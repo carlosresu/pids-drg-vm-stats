@@ -61,6 +61,14 @@ You’ll need to download Cloud Logging JSON logs for each VM:
   data/inputs/eclaims.json
   ```
 
+- **eClaims VM v2**
+  [Download logs here](https://cloudlogging.app.goo.gl/ksdz79DERaatzKEp6)
+  Save as:
+
+  ```
+  data/inputs/eclaims-v2.json
+  ```
+
 - **STATA VM**
   [Download logs here](https://cloudlogging.app.goo.gl/qfMqdAv79nZ8cmha7)
   Save as:
