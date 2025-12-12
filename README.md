@@ -1,12 +1,32 @@
-Here’s a full **README.md** you can drop into your `pids-drg-vm-stats` repo. I’ve structured it for clarity, covering setup, inputs, usage, outputs, and samples.
+# pids-drg-vm-stats
+
+This repository generates **daily, weekly, and monthly VM usage reports** (in hours) for the **eClaims VM**, **eClaims VM v2**, and the **STATA VM**, using logs exported from Google Cloud Logging.
+
+The reports include visualizations of VM usage since the inception of each VM until present day.
+
+**Last Updated:** December 2025
 
 ---
 
-# pids-drg-vm-stats
+## Progress Since June 2025
 
-This repository generates **daily, weekly, and monthly VM usage reports** (in hours) for the **eClaims VM** and the **STATA VM**, using logs exported from Google Cloud Logging.
+### Key Accomplishments
 
-The reports include visualizations of VM usage since the inception of each VM until present day.
+| Date | Milestone |
+|------|-----------|
+| **Jun 2025** | Initial commit with basic log parsing |
+| **Jul 2025** | Added README with setup/usage instructions |
+| **Aug 2025** | Updated images with latest usage charts |
+| **Sep 2025** | Added eClaims VM v2 support |
+| **Oct 2025** | Wrote comprehensive `walkthrough.md` |
+| **Nov-Dec 2025** | Updated sample outputs, refined chart generation |
+
+### Current Status
+
+- **VMs Tracked:** eClaims (v1), eClaims (v2), STATA
+- **Log Sources:** Google Cloud Logging JSON exports
+- **Reports Generated:** Daily, Weekly (ISO), Monthly usage charts
+- **Output Format:** In-notebook matplotlib visualizations
 
 ---
 
