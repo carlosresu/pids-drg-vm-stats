@@ -194,3 +194,4 @@ cython_debug/
 .cursorindexingignore
 data/inputs/eclaims.json
 data/inputs/stata.json
+data/inputs/eclaims-v2.json
